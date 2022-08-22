@@ -75,6 +75,7 @@ describe('Campaigns', () => {
       assert.equal('Buy batteries', request.description);
   });
 
+//more detail
   it('processes requests', async () => {
     await campaign.methods.contribute().send({
       from: accounts[0],
