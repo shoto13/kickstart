@@ -11,6 +11,6 @@ class CampaignIndex extends Component {
   render() {
     return <div>Campaigns Index!</div>
   }
-
+}
 
 export default CampaignIndex;
